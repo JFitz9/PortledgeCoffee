@@ -1,0 +1,193 @@
+/* This will style the body element */
+body{
+    /* background-color: gray; */
+    /* "Department of Coffee and Social Affairs" by Michael Dales is licensed under CC BY-NC 2.0 */
+    background-image: url(images/Coffee_beans2.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+
+
+}
+
+/* This will style the wrapper class to center the content  */
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header{
+    /* THis will style the header where the logo will go */
+    /* background-color: royalblue; */
+    min-height: 120px;
+}
+
+.logoImage{
+    height: 150px;
+}
+/* This will style the nav box */
+nav{
+    background-color: rgba(128, 128, 128, 0.508);
+    text-align: center;
+    min-height: 45px;   
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+/* This will style the main */
+main{
+     /* background-color: white; */
+    min-height: 400px;
+
+}
+/* This will style the footer */
+footer{
+    /* background-color: royalblue;  */
+    min-height: 75px;
+
+}
+a{
+    /* color: white; */
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Compound Selector - target only links inside of the nav */
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+main{
+    /* background-color: white; */
+    min-height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+}
+ /* compound selector */
+ main h1{
+    font-size: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px royalblue;
+ }
+ /* Do This: set the font size to 50 px, change the color to white,
+ pick a font family of my choice, add a text shadow */
+ main h2{
+    font-size: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px royalblue;
+
+ }
+ /* Do this: set the size to 18px, change the color to rgba(249,111,93,1), change the font family, and also add a text shadow */
+ main p{
+   font-size: 20px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow: 1px 1px 2px black;
+   margin-bottom: 32px;
+ }
+
+ .myButton{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 32px;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+ }
+ 
+ footer{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    
+ }
+ 
+ footer p{
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(128, 128, 128, 0.508)
+
+ }
+ .map{
+    margin-top: 32px;
+    text-align: center;
+    
+ }
+ 
+ a{
+    color: royalblue;
+ }
+ /* This is the code for the "contact us" page */
+
+ h1{
+    color: white;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+
+ }
+ .contactBody{
+    background-repeat: no-repeat;
+ }
+
+ h2{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ h3{
+    color: white;
+    text-shadow: 2pc;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ p{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+ }
+ .Box1{
+    background-color: rgba(128, 128, 128, 0.508);
+    margin-top: 65px;
+    margin-bottom: 65px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+h4{
+   font-size: 28px;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   text-align: center;
+
+}
+a{
+   font-size: 22px;
+   font-family: 'Times New Roman', Times, serif;
+   color: red;
+   
+   
+   
+}
+
+ 
+ 
+
+
+
+
